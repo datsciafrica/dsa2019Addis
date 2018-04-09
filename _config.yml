@@ -1,6 +1,7 @@
 # Site settings
 title: Data Science Africa
 location: Abuja, Nigeria (12 Nov - 16 Nov 2018)
+city: Abuja
 year: 2018
 email: info@datascienceafrica.org
 banner: Abuja06.jpg
@@ -88,10 +89,12 @@ conference:
   goldsponsors: 
   #- {logo: facebook.png, name: "Facebook"}  
   #- {logo: google.png, name: "Google"}
-  - {logo: ARM-RGB-2015.png, name: "ARM", url: "https://www.arm.com/"}
-  - {logo: ARMmbedLogo2-1170x316.png, name: "ARM mbed", url: "https://www.mbed.com/en/"}
+  - {logo: arm-logo-blue-rgb.png, name: "ARM", url: "https://www.arm.com/"}
+  #- {logo: ArmMbedLogo.png, name: "ARM mbed", url: "https://www.mbed.com/en/"}
+  - {logo: Amazon-logo-RGB.png, name: "Amazon", url: "https://www.amazon.com/"}
   silversponsors:
   - {logo: deepmind_logo.png, name: "DeepMind", url: "https://deepmind.com/"}
+  - {logo: Google.png, name: "Google", url: "https://www.google.com/"}
   
 feedback: 
 

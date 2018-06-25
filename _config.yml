@@ -63,7 +63,7 @@ conference:
   theme: 
   hosts:
   roles:
-  - {type: General Chair, name: Amos David, url: "", email: "david@aust.edu.ng"}
+  - {type: General Chair, name: Amos David, url: "", email: "adavid@aust.edu.ng"}
   - {type: Program Chair, name: Martin Mubangizi, url: "", email: "martin.mubangizi@one.un.org"}
   name: Data Science in Africa Workshop 
   location: "African University of Science and Technology, Abuja"

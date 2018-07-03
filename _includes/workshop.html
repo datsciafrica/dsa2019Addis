@@ -15,7 +15,7 @@
 	{% if site.conference.registration.open %}
         <div style="padding: 20px 0px">
           <h4 style="margin-bottom: 5px;">Important Dates</h4>
-          <p> {{ site.conference.registration.abstract | date: "%d %B %Y" }}: Abstract Submission Deadline</p>
+          <p> {{ site.conference.registration.abstract.deadline | date: "%d %B %Y" }}: Abstract Submission Deadline</p>
           <p> {{ site.conference.registration.deadline | date: "%d %B %Y" }}: Closing Date for Registration</p>
         </div>
 	{% endif %}
@@ -37,7 +37,14 @@
             and data science can have an impact in their field.
           </p>
 	  {% endif %}
-          <p>The workshop will be organized around paper presentations and interactive panel discussions. We invite participants interested in presenting work at the workshop to submit a short abstract describing the application of data science methods to problems relevant to Africa. These may include, for example, the following areas:
+          <p>The workshop will be organized around paper presentations 
+            and interactive panel discussions. We invite participants 
+            interested in presenting work at the workshop to submit a 
+            short abstract describing the application of data science 
+            methods to problems relevant to Africa. Please use the 
+            <strong>"Submit Abstract"</strong> button below. You will be notified 
+            whether your work will be presented orally or as a poster.  
+            These may include, for example, the following areas:
 <ul>
 <li>Data Science for the Sustainable Development Goals
 </li>
@@ -62,15 +69,18 @@
 	  {% include workshop_program.html %} -->
 
 
-	<!-- {% if site.conference.registration.open %}
+	{% if site.conference.registration.open %}
 	{% if site.conference.googleformid %}
-	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:center; ">Register for Workshop</a></div>
+	<div>
+    <a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:center; ">Register for Workshop</a>
+    <a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.registration.abstract.googleformid }}" style="float:center; ">Submit Abstract</a>
+  </div>
 	{% endif %}
 	{% else %}
 	<p><i>The workshop is now fully subscribed, and registration has closed.</i></p>
 
-	{% endif %} -->
-  <p><i>Registration for the workshop is yet to be opened.</i></p>
+	{% endif %}
+  <!-- <p><i>Registration for the workshop is yet to be opened.</i></p> -->
 
       </div>
     </div>

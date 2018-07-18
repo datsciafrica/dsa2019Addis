@@ -71,7 +71,7 @@ conference:
   year: 2018
   month: November
   registration:
-    deadline: 2018-08-17
+    deadline: 2018-08-15
     open: True
   # add other days here for them to appear
     abstract: 

@@ -49,8 +49,8 @@ school:
   - 2018-11-13
   - 2018-11-14
   registration:
-    deadline: 2018-08-04
-    open: True
+    deadline: 2018-08-15
+    open: False
   draft: Y # set to Y if the programme is draft only.
   roles:
   - {type: Organizer, name: Prof. Amos David, url: "https://sites.google.com/site/cwamainadekut"}  
@@ -72,7 +72,7 @@ conference:
   month: November
   registration:
     deadline: 2018-08-15
-    open: True
+    open: False
   # add other days here for them to appear
     abstract: 
       deadline: 2018-09-15

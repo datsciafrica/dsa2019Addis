@@ -89,13 +89,13 @@ conference:
   - {logo: nmaist-logo.png, name: Nelson Mandela African Institute of Science and Technology}
   - {logo: aust.jpg, name: African University of Science and Technology, Abuja}
   goldsponsors: 
-  #- {logo: facebook.png, name: "Facebook"}  
+  - {logo: facebook.png, name: "Facebook"}  
   #- {logo: google.png, name: "Google"}
-  - {logo: arm-logo-blue-rgb.png, name: "ARM", url: "https://www.arm.com/"}
+  #- {logo: arm-logo-blue-rgb.png, name: "ARM", url: "https://www.arm.com/"}
   #- {logo: ArmMbedLogo.png, name: "ARM mbed", url: "https://www.mbed.com/en/"}
   - {logo: Amazon-logo-RGB.png, name: "Amazon", url: "https://www.amazon.com/"}
   silversponsors:
-  - {logo: deepmind_logo.png, name: "DeepMind", url: "https://deepmind.com/"}
+  #- {logo: deepmind_logo.png, name: "DeepMind", url: "https://deepmind.com/"}
   - {logo: Google.png, name: "Google", url: "https://www.google.com/"}
 
   

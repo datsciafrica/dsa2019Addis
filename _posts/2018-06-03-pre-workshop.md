@@ -1,7 +1,7 @@
 ---
-layout: school_old
+layout: school
 title: Pre-workshop
-active: True
+active: False
 video: False
 day: 0
 comments: true

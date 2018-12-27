@@ -20,20 +20,20 @@ other:
                         font-weight: bold; 
                         font-size: 18px;
 
-                        ">Kenya: Data Science Africa 2018</div>
-    <div>June 04<sup>th</sup>  - June 08<sup>st</sup> 2018</div>
+                        ">Previous: Data Science Africa 2018</div>
+    <div>May 31<sup>st</sup>  - June 08<sup>st</sup> 2018</div>
     <div>Nyeri, Kenya</div>
 
 previous:
-  url: /dsa2017/
+  url: /dsa2018abuja/
   text: | # From here to "school:"
     <div class="" style="
                         font-weight: bold; 
                         font-size: 18px;
 
-                        ">Previous: Data Science Africa 2017</div>
-    <div>July 17<sup>th</sup>  - July 21<sup>st</sup> 2017</div>
-    <div>Arusha, Tanzania</div>
+                        ">Previous: Data Science Africa 2018 </div>
+    <div>November 12<sup>th</sup>  - November 17<sup>st</sup> 2018</div>
+    <div>Abuja, Nigeria</div>
 
 social:
   title: Social Event
@@ -43,7 +43,7 @@ school:
   name: Data Science in Africa School
   shortname: DSA2019
   location: "Addis Ababa University, Addis Ababa"
-  googleformid: Y35RSOtJ2iCp0Szg2
+  googleformid: 
   dates:		
   - 2019-06-03
   - 2019-06-04
@@ -67,7 +67,7 @@ conference:
   - {type: Program Chair, name: Dina Machuve, url: "", email: "dmachuve@gmail.com"}
   name: Data Science in Africa Workshop 
   location: "Addis Ababa University, Ethiopia"
-  googleformid: wiN1dJ1g7yPPXhEt2
+  googleformid: 
   year: 2018
   month: November
   registration:
@@ -76,7 +76,7 @@ conference:
   # add other days here for them to appear
     abstract: 
       deadline: 2019-03-15
-      googleformid: K3OxfLpKhn1wVOf02
+      googleformid: 
   dates:	
   - 2019-06-06
   - 2019-06-07
@@ -88,7 +88,7 @@ conference:
   - {logo: dedan_kimathi.png, name: Dedan Kimathi University of Technology}
   - {logo: nmaist-logo.png, name: Nelson Mandela African Institute of Science and Technology}
   - {logo: aust.jpg, name: African University of Science and Technology, Abuja}
-  - {logo: aust.jpg, name: African University of Science and Technology, Abuja}
+  #  - {logo: aust.jpg, name: African University of Science and Technology, Abuja}
   goldsponsors: 
   #- {logo: facebook.png, name: "Facebook"}  
   #- {logo: google.png, name: "Google"}

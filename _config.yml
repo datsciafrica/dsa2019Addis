@@ -6,7 +6,7 @@ year: 2019
 email: info@datascienceafrica.org
 banner: Abuja06.jpg
 description: > # this means to ignore newlines until "baseurl:"
-  The 2018 Data Science Africa summer school held at African University of Science and Technology.
+  The 2018 Data Science Africa summer school held at Addis Ababa University.
 baseurl: "/dsa2018addis" # the subpath of your site, e.g. /blog/
 url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site
 twitter_username: datsciAfrica
@@ -42,7 +42,7 @@ social:
 school:  
   name: Data Science in Africa School
   shortname: DSA2019
-  location: "African University of Science and Technology, Abuja"
+  location: "Addis Ababa University, Addis Ababa"
   googleformid: Y35RSOtJ2iCp0Szg2
   dates:		
   - 2019-06-03

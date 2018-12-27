@@ -1,13 +1,13 @@
 # Site settings
 title: Data Science Africa
-location: Abuja, Nigeria (12 Nov - 16 Nov 2018)
-city: Abuja
-year: 2018
+location: Addis Ababa, Ethiopia (3rd - 07th June 2019)
+city: Addis Ababa
+year: 2019
 email: info@datascienceafrica.org
 banner: Abuja06.jpg
 description: > # this means to ignore newlines until "baseurl:"
   The 2018 Data Science Africa summer school held at African University of Science and Technology.
-baseurl: "/dsa2018abuja" # the subpath of your site, e.g. /blog/
+baseurl: "/dsa2018addis" # the subpath of your site, e.g. /blog/
 url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site
 twitter_username: datsciAfrica
 logo_url: img/logo.png
@@ -41,7 +41,7 @@ social:
   
 school:  
   name: Data Science in Africa School
-  shortname: DSA2018
+  shortname: DSA2019
   location: "African University of Science and Technology, Abuja"
   googleformid: Y35RSOtJ2iCp0Szg2
   dates:		
@@ -53,20 +53,20 @@ school:
     open: False
   draft: Y # set to Y if the programme is draft only.
   roles:
-  - {type: Organizer, name: Prof. Amos David, url: "https://sites.google.com/site/cwamainadekut"}  
-  - {type: Organizer, name: Mubangizi Martin Gordon, url: "http://air.ug/~mmubangizi"}
+  - {type: Organizer, name: Michael Melese, url: "https://sites.google.com/site/cwamainadekut"}  
+  - {type: Organizer, name: Dina Machuve, url: "http://air.ug/~mmubangizi"}
   - {type: Organizer, name: Charles I. Saidu, url: "http://air.ug/~jquinn"}
   - {type: Organizer, name: Samuel Grace Kehinde, url: "http://air.ug/~jquinn"}
 
 conference:
-  shortname: DSA2018
+  shortname: DSA2019Addis
   theme: 
   hosts:
   roles:
-  - {type: General Chair, name: Amos David, url: "", email: "adavid@aust.edu.ng"}
-  - {type: Program Chair, name: Martin Mubangizi, url: "", email: "martin.mubangizi@one.un.org"}
+  - {type: General Chair, name: Michael Melese, url: "", email: "michael.melese@aau.edu.et"}
+  - {type: Program Chair, name: Dina Machuve, url: "", email: "dmachuve@gmail.com"}
   name: Data Science in Africa Workshop 
-  location: "African University of Science and Technology, Abuja"
+  location: "Addis Ababa University, Ethiopia"
   googleformid: wiN1dJ1g7yPPXhEt2
   year: 2018
   month: November
@@ -88,15 +88,16 @@ conference:
   - {logo: dedan_kimathi.png, name: Dedan Kimathi University of Technology}
   - {logo: nmaist-logo.png, name: Nelson Mandela African Institute of Science and Technology}
   - {logo: aust.jpg, name: African University of Science and Technology, Abuja}
+  - {logo: aust.jpg, name: African University of Science and Technology, Abuja}
   goldsponsors: 
-  - {logo: facebook.png, name: "Facebook"}  
+  #- {logo: facebook.png, name: "Facebook"}  
   #- {logo: google.png, name: "Google"}
   #- {logo: arm-logo-blue-rgb.png, name: "ARM", url: "https://www.arm.com/"}
   #- {logo: ArmMbedLogo.png, name: "ARM mbed", url: "https://www.mbed.com/en/"}
-  - {logo: Amazon-logo-RGB.png, name: "Amazon", url: "https://www.amazon.com/"}
+  #- {logo: Amazon-logo-RGB.png, name: "Amazon", url: "https://www.amazon.com/"}
   silversponsors:
   #- {logo: deepmind_logo.png, name: "DeepMind", url: "https://deepmind.com/"}
-  - {logo: Google.png, name: "Google", url: "https://www.google.com/"}
+  #- {logo: Google.png, name: "Google", url: "https://www.google.com/"}
 
   
 feedback: 

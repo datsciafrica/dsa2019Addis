@@ -45,18 +45,18 @@ school:
   location: "African University of Science and Technology, Abuja"
   googleformid: Y35RSOtJ2iCp0Szg2
   dates:		
-  - 2018-11-12
-  - 2018-11-13
-  - 2018-11-14
+  - 2019-06-03
+  - 2019-06-04
+  - 2019-06-05
   registration:
-    deadline: 2018-08-15
+    deadline: 2019-03-15
     open: False
   draft: Y # set to Y if the programme is draft only.
   roles:
   - {type: Organizer, name: Michael Melese, url: "https://sites.google.com/site/cwamainadekut"}  
   - {type: Organizer, name: Dina Machuve, url: "http://air.ug/~mmubangizi"}
-  - {type: Organizer, name: Charles I. Saidu, url: "http://air.ug/~jquinn"}
-  - {type: Organizer, name: Samuel Grace Kehinde, url: "http://air.ug/~jquinn"}
+#  - {type: Organizer, name: Charles I. Saidu, url: "http://air.ug/~jquinn"}
+#  - {type: Organizer, name: Samuel Grace Kehinde, url: "http://air.ug/~jquinn"}
 
 conference:
   shortname: DSA2019Addis
@@ -71,15 +71,15 @@ conference:
   year: 2018
   month: November
   registration:
-    deadline: 2018-08-15
+    deadline: 2019-03-15
     open: False
   # add other days here for them to appear
     abstract: 
-      deadline: 2018-09-15
+      deadline: 2019-03-15
       googleformid: K3OxfLpKhn1wVOf02
   dates:	
-  - 2018-11-15
-  - 2018-11-16
+  - 2019-06-06
+  - 2019-06-07
   draft: Y # set to Y if the programme is draft only.
   organizers:
   - {logo: sheffield.png, name: University of Sheffield}

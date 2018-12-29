@@ -1,12 +1,12 @@
 # Site settings
 title: Data Science Africa
-location: Addis Ababa, Ethiopia (3rd - 07th June 2019)
+location: Addis Ababa, Ethiopia (3rd - 7th June 2019)
 city: Addis Ababa
 year: 2019
 email: info@datascienceafrica.org
 banner: AddisAbabaUniversity.jpg
 description: > # this means to ignore newlines until "baseurl:"
-  The 2018 Data Science Africa summer school held at Addis Ababa University.
+  The 2019 Data Science Africa summer school held at Addis Ababa University.
 baseurl: "/dsa2019addis" # the subpath of your site, e.g. /blog/
 url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site
 twitter_username: DatSciAfrica
@@ -14,7 +14,7 @@ logo_url: img/logo.png
 github_username:  datsciafrica
 
 other:
-  url: /dsa2018/
+  url: /dsa2019accra/
   text: |
     <div class="" style="
                         font-weight: bold; 
@@ -25,16 +25,6 @@ other:
     <div>Accra, Ghana</div>
 
 previous:
-  url: /dsa2018/
-  text: |
-    <div class="" style="
-                        font-weight: bold; 
-                        font-size: 18px;
-
-                        ">Previous: Data Science Africa 2018</div>
-    <div>May 31<sup>st</sup>  - June 08<sup>st</sup> 2018</div>
-    <div>Nyeri, Kenya</div>
-    
   url: /dsa2018abuja/
   text: | # From here to "school:"
     <div class="" style="

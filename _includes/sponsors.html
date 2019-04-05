@@ -49,6 +49,21 @@
       </div>
       {% endfor %}
     </div>
+      <h3 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Bronze Sponsors</h3>
+    <div class="row">
+      {% for sponsor in site.conference.bronzesponsors %}
+      
+      <!-- <div class="col-sm-6 col-md-3"> -->
+      <div class="logo-box">
+        <div class="icon-box" style="position: relative; min-height: 80px;">
+          <!-- <span class="helper"></span> -->
+          <a href="{{sponsor.url}}">		
+          <img class="v-align" style="" src="{{ site.baseurl }}/img/{{ sponsor.logo }}">
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
     <p>Sponsoring {{ site.title }} {{ site.year }} Event is a great way to communicate your commitment to support the achievement of the sustainable development goals. To become a sponsor, please contact Data Science Africa at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p> <!--datasciafrica@gmail.com-->
 
     

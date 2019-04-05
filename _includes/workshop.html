@@ -27,7 +27,7 @@
 	{% endif %}
         <div style="padding: 20px 0px">
           <h4 style="margin-bottom: 5px;">Call for Registration</h4>
-	  {% if site.registration.open %}
+	  {% if site.conference.registration.open %}
           <p> We welcome participants working in any field related to
             data science in Africa. This includes data science
             researchers from academia or industry, statisticians and
@@ -58,42 +58,46 @@
 <li>Geospatial modelling</li>
 <li>Telecommunications data modelling</li>
 <li>Economic monitoring</li></ul>
-</p>
+            </p>
 <p>During the panel discussions, we will unite a wide range of stakeholders, including data scientists, representatives from government, development practitioners and the private sector; this will provide a unique setting in which innovative solution driven ideas can thrive.</p>
 
 	  <p>Participants will also develop a <b>framework for attracting</b> young African talent, mentors and researchers from academia, the public sector and the private sector in Africa to engage in activities geared towards harnessing big data and real-time analytics for the public good.
 	  </p>
 
-<!--
+
      <h4 style="margin-top: 20px">Workshop programme outline:</h4>
 
 	  {% include workshop_program.html %} 
--->
 
-    {% if site.conference.registration.open %}
+<p></p>
+<!--    {% if site.conference.registration.open %}
 	{% if site.conference.googleformid %}
-	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:center; ">Register for Workshop</a></div>
+	<div><a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:center; /*background-color:white; 
+													   color:#999; */
+													   /*border-color:#e6e6e6*/">Register for Workshop</a></div>
 	{% endif %}
-	{% else %}
-<!--	<p><i>The workshop is now fully subscribed, and registration has closed.</i></p>-->
-
-	{% endif %}
-
-<!--
-	{% if site.conference.registration.open %}
-	{% if site.conference.googleformid %}
-	<div>
-    <a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:center; ">Register for Workshop</a>
-    <a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.registration.abstract.googleformid }}" style="float:center; ">Submit Abstract</a>
-  </div>
-	{% endif %}
-	{% else %}
+	{% else %} 
 	<p><i>The workshop is now fully subscribed, and registration has closed.</i></p>
 
+	{% endif %}
 
-	{% endif %}-->
-   <p><i>Registration for the workshop is yet to be opened.</i></p> 
+ -->
+            
+    {% if site.conference.registration.open %}
+	{% if site.conference.googleformid %}
+    <div>
+    <a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.googleformid }}" style="float:center">Register for Workshop</a>
+    <a class="btn btn-default btn-lg" data-toggle="modal" href="http://goo.gl/forms/{{ site.conference.registration.abstract.googleformid }}" style="float:center">Submit Abstract</a>
 
+    </div> 
+	{% endif %}
+	{% else %} 
+	<p><i>The workshop is now fully subscribed, and registration has closed.</i></p> 
+
+
+	{% endif %} 
+
+<!--<p><i>Registration for the workshop is yet to be opened.</i></p> -->
 
       </div>
     </div>

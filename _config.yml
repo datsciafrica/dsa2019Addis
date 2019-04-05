@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
   The 2019 Data Science Africa summer school held at Addis Ababa University.
 baseurl: "/dsa2019addis" # the subpath of your site, e.g. /blog/
 url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site
-twitter_username: DatSciAfrica
+twitter_username: datascienceafrica.org #DatSciAfrica
 logo_url: img/logo.png
 github_username:  datsciafrica
 
@@ -49,7 +49,7 @@ school:
   - 2019-06-04
   - 2019-06-05
   registration:
-    deadline: 2019-03-15
+    deadline: 2019-05-10
     open: False
   draft: Y # set to Y if the programme is draft only.
   roles:
@@ -64,19 +64,19 @@ conference:
   hosts:
   roles:
   - {type: General Chair, name: Michael Melese, url: "", email: "michael.melese@aau.edu.et"}
-  - {type: Program Chair, name: Dina Machuve, url: "", email: "dmachuve@gmail.com"}
+  - {type: Program Chair, name: Dina Machuve, url: "http://twiga2.github.io/dmachuve", email: "dmachuve@gmail.com"}
   name: Data Science in Africa Workshop 
   location: "Addis Ababa University, Ethiopia"
-  googleformid: 
+  googleformid: "1FAIpQLScTyrlLgbjqCP6DOVNXIhRRI_SYxJPksvQwjkeSUAP9UHpHyQ"
   year: 2019
-  month: November
+  month: June
   registration:
-    deadline: 2019-03-15
-    open: False
+    deadline: 2019-05-10
+    open: True
   # add other days here for them to appear
     abstract: 
-      deadline: 2019-03-15
-      googleformid: 
+      deadline: 2019-05-10
+      googleformid: "1FAIpQLSfXl0tL8kWn3xSFKEL_IhVNfoLgC4gJ0eqadrSIIw25FsaAKw"
   dates:	
   - 2019-06-06
   - 2019-06-07
@@ -89,6 +89,7 @@ conference:
   - {logo: nmaist-logo.png, name: Nelson Mandela African Institute of Science and Technology}
   - {logo: aust.jpg, name: African University of Science and Technology, Abuja}
   - {logo: Addis_Ababa_University_logo.png, name: Addis Ababa University}
+  - {logo: Google.png, name: Google AI, Ghana}
   goldsponsors: 
   #- {logo: facebook.png, name: "Facebook"}  
   #- {logo: google.png, name: "Google"}
@@ -99,8 +100,11 @@ conference:
   #- {logo: deepmind_logo.png, name: "DeepMind", url: "https://deepmind.com/"}
   #- {logo: Google.png, name: "Google", url: "https://www.google.com/"}
   - {logo: Voyage.png, name: "Voyage", url: "https://www.voyage.auto/"}
+  bronzesponsors:
+  - {logo: ApexAI.webp, name: ApexAI,url: "https://www.apex.ai/"}
+  - {logo: gigster.png, name: Gigster,url: "https://www.gigster.com/"}
+  - {logo: iclr2.jpeg, name: ICLR,url: "https://iclr.cc/"}
 
-  
 feedback: 
 
 

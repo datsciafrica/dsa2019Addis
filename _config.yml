@@ -67,7 +67,7 @@ conference:
   - {type: Program Chair, name: Dina Machuve, url: "http://twiga2.github.io/dmachuve", email: "dmachuve@gmail.com"}
   name: Data Science in Africa Workshop 
   location: "Addis Ababa University, Ethiopia"
-  googleformid: "1FAIpQLScTyrlLgbjqCP6DOVNXIhRRI_SYxJPksvQwjkeSUAP9UHpHyQ"
+  googleformid: LVzZqd2Ci1YVeJZa9
   year: 2019
   month: June
   registration:
@@ -76,7 +76,7 @@ conference:
   # add other days here for them to appear
     abstract: 
       deadline: 2019-05-10
-      googleformid: "1FAIpQLSfXl0tL8kWn3xSFKEL_IhVNfoLgC4gJ0eqadrSIIw25FsaAKw"
+      googleformid: xeCESJonBotRve5u9
   dates:	
   - 2019-06-06
   - 2019-06-07

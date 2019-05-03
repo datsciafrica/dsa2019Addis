@@ -71,11 +71,11 @@ conference:
   year: 2019
   month: June
   registration:
-    deadline: 2019-05-10
-    open: True
+    deadline: 2019-05-03
+    open: False
   # add other days here for them to appear
     abstract: 
-      deadline: 2019-05-10
+      deadline: 2019-05-03
       googleformid: xeCESJonBotRve5u9
   dates:	
   - 2019-06-06
@@ -90,6 +90,8 @@ conference:
   - {logo: aust.jpg, name: African University of Science and Technology, Abuja}
   - {logo: Addis_Ababa_University_logo.png, name: Addis Ababa University}
   - {logo: Google.png, name: Google AI, Ghana}
+  - {logo: parisuni.png, name: Univ Paris, France}
+  - {logo: zindi.png, name: Zindi, South Africa}
   goldsponsors: 
   #- {logo: facebook.png, name: "Facebook"}  
   #- {logo: google.png, name: "Google"}
@@ -103,7 +105,7 @@ conference:
   bronzesponsors:
   - {logo: ApexAI.webp, name: ApexAI,url: "https://www.apex.ai/"}
   - {logo: gigster.png, name: Gigster,url: "https://www.gigster.com/"}
-  - {logo: iclr2.jpeg, name: ICLR,url: "https://iclr.cc/"}
+  - {logo: max.jpg, name: Max, url: "https://staff.fnwi.uva.nl/m.welling/"}
 
 feedback: 
 

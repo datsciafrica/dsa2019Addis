@@ -101,7 +101,7 @@ conference:
   silversponsors:
   #- {logo: deepmind_logo.png, name: "DeepMind", url: "https://deepmind.com/"}
   #- {logo: Google.png, name: "Google", url: "https://www.google.com/"}
-  - {logo: Voyage-new.png, name: "Voyage", url: "https://www.voyage.auto/"}
+  - {logo: Voyage-new.jpg, name: "Voyage", url: "https://www.voyage.auto/"}
   bronzesponsors:
   - {logo: ApexAI.webp, name: ApexAI,url: "https://www.apex.ai/"}
   - {logo: gigster.png, name: Gigster,url: "https://www.gigster.com/"}

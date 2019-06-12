@@ -18,12 +18,12 @@ This repository contains the the details of a DSA meeting.
 
 ## Select a Suitable Previous Meeting to Copy From
 
-Here we're basing the new repo on DSA2017
+Here we're basing the new repo on dsaconfstub
 
 ```
-git clone --bare https://github.com/datsciafrica/dsa2017.git
-mv dsa2017 dsaXXXXcity
-cd dsaXXXXcity
+git clone --bare https://github.com/datsciafrica/dsaconfstub.git
+mv dsaconfstub dsaXXXXcity.git
+cd dsaXXXXcity.git
 git branch -m gh-pages
 git push --mirror https://github.com/datsciafrica/dsaXXXXcity.git
 ```

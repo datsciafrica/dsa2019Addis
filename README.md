@@ -27,14 +27,20 @@ cd dsaXXXXcity.git
 git branch -m gh-pages
 git push --mirror https://github.com/datsciafrica/dsaXXXXcity.git
 ```
-6. Edit the `_config.yml` file in the new repo to set `baseurl` to `dsaXXXXcity` and set `permalink` to  `"/:title.html"`.
+6. Now the repo is on line and you can clone it in the normal way to start working on it.
 
-7. Delete CNAME from the repo.
+```
+git clone https://github.com/datsciafrica/dsaXXXXcity.git
+cd dsaXXXXcity
+````
 
-8. Commit the changes and push the repo.
+7. If everything is OK you can delete the bare mirror in the subdirectory ```dsaXXXXcity.git```.
 
-9. Check that the archived page appears online at http://datascienceafrica.org/dsaXXXXcity.git
+8. Edit the `_config.yml` file in the new repo to set `baseurl` to `dsaXXXXcity` and set `permalink` to  `"/:title.html"`.
 
+9. Commit the changes and push the repo.
+
+10. Check that the archived page appears online at http://datascienceafrica.org/dsaXXXXcity.git
 
 11. Add the team `dsaXXXXcity` to the admin rights for the repo `dsaXXXXcity`
 
